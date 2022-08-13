@@ -1,0 +1,277 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@600&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+}
+body {
+  background-color: #fbfbfb;
+}
+header {
+  background-color: #636c79;
+  color: #e6e6e9;
+  padding: 20px 30px 0px 100px;
+  font-family: "Open Sans", sans-serif;
+}
+nav {
+  display: grid;
+  grid-template-columns: 2fr 2.4fr 0.7fr;
+}
+nav img {
+  margin-top: 12px;
+}
+nav ul {
+  display: flex;
+  margin-top: 13px;
+}
+nav ul li {
+  list-style-type: none;
+  margin-right: 50px;
+  cursor: pointer;
+}
+nav button {
+  background: transparent;
+  color: #e6e6e9;
+  border: 2px solid grey;
+  font-weight: bold;
+  margin-top: 8px;
+  padding: 10px 15px;
+  cursor: pointer;
+}
+header .head {
+  padding-top: 70px;
+  padding-bottom: 70px;
+  display: flex;
+}
+header .head .image-div {
+  margin-left: 50px;
+  margin-right: 120px;
+}
+header .head div img {
+  width: 500px;
+}
+header .head .details {
+  margin-top: 40px;
+}
+header .head .details h1 {
+  font-size: 320%;
+  color: white;
+  margin-bottom: 30px;
+}
+header .head .details p {
+  line-height: 35px;
+  font-size: 120%;
+}
+header .head .details .talk {
+  margin-top: 40px;
+  background-color: white;
+  padding: 10px 10px;
+  height: 50px;
+}
+header .head .details .talk img {
+  width: 20px;
+  margin-top: 15px;
+  margin-right: 10px;
+}
+header .head .details .talk input {
+  border: none;
+  margin-right: 50px;
+}
+header .head .details .talk input::placeholder {
+  font-size: 110%;
+}
+header .head .details .talk button {
+  background-color: #8bb7a2;
+  color: white;
+  border: none;
+  font-weight: bold;
+  font-size: 110%;
+  padding: 15px 70px;
+  cursor: pointer;
+}
+.business-targets {
+  margin: 80px 100px 200px 100px;
+  font-family: "Open Sans", sans-serif;
+}
+.business-targets h1 {
+  text-align: center;
+  font-weight: bold;
+  font-size: 400%;
+  margin-bottom: 80px;
+  font-family: "Raleway", sans-serif;
+}
+.business-targets .targets {
+  display: flex;
+  justify-content: space-around;
+  margin: 40px 0px 60px 0px;
+}
+.business-targets .target {
+  text-align: center;
+}
+.business-targets .target h2 {
+  margin-bottom: 10px;
+  font-weight: 900;
+}
+.business-targets .target p {
+  margin-bottom: 10px;
+  font-weight: bold;
+  color: gray;
+}
+.business-targets img {
+  width: 100%;
+}
+.services-details {
+  margin: 110px 100px 200px 100px;
+  font-family: "Open Sans", sans-serif;
+}
+.services-details > h1 {
+  text-align: center;
+  font-weight: bold;
+  font-size: 400%;
+  margin-bottom: 80px;
+  font-family: "Raleway", sans-serif;
+}
+.services-details .services .service {
+  display: flex;
+  margin-top: 100px;
+}
+.services-details .services .service img {
+  width: 500px;
+  height: 500px;
+}
+.services-details .services .service img {
+  flex-grow: 1;
+  width: 500px;
+}
+.services-details .services .service div {
+  flex-grow: 1;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+.services-details .services .service div h1 {
+  font-size: 330%;
+  font-family: "Raleway", sans-serif;
+}
+.services-details .services .service div p {
+  font-size: 110%;
+  color: gray;
+  line-height: 32px;
+}
+.services-details .services .service div h1,
+p,
+button {
+  margin-bottom: 25px;
+}
+.services-details .services .service div button {
+  background-color: #8bb7a2;
+  color: white;
+  border: none;
+  font-weight: bold;
+  font-size: 110%;
+  padding: 15px 70px;
+  cursor: pointer;
+}
+.services-details .services .service .second-service {
+  margin-left: 220px;
+}
+.teams {
+  margin: 110px 100px 100px 100px;
+  font-family: "Open Sans", sans-serif;
+}
+.teams .head {
+  display: flex;
+  justify-content: space-between;
+}
+
+.teams .head h2 {
+  font-family: "Raleway", sans-serif;
+  font-weight: 900;
+  font-size: 330%;
+  line-height: 60px;
+}
+.teams .head p {
+  line-height: 35px;
+  font-size: 110%;
+  color: gray;
+  margin-top: 15px;
+  margin-right: 40px;
+  word-spacing: 5px;
+  font-weight: bold;
+}
+.teams .team-images {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 40px;
+}
+.teams .team-images div img {
+  width: 300px;
+  margin-bottom: 20px;
+}
+.teams .team-images h3,
+p {
+  margin-bottom: 20px;
+  text-align: left;
+  font-family: "Raleway", sans-serif;
+}
+.teams .team-images div p {
+  color: grey;
+  line-height: 25px;
+}
+.teams div:last-child {
+  text-align: center;
+}
+.teams div button {
+  background-color: #8bb7a2;
+  color: white;
+  border: none;
+  font-weight: bold;
+  font-size: 110%;
+  margin-top: 30px;
+  padding: 15px 50px;
+  cursor: pointer;
+}
+footer {
+  padding: 80px 100px 100px 100px;
+  background-color: #10181d;
+  font-family: "Open Sans", sans-serif;
+}
+footer .head {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 50px;
+}
+footer .head .social-icons {
+  background-color: #10181d;
+  display: flex;
+}
+footer .head .social-icons i {
+  margin-left: 50px;
+  cursor: pointer;
+}
+footer .head .social-icons .fa-brands {
+  background-color: #282f34;
+  padding: 15px 15px;
+  border-radius: 50%;
+  color: white;
+}
+footer .items {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 70px;
+}
+footer .items .item li {
+  list-style-type: none;
+  margin-bottom: 20px;
+  color: grey;
+  font-size: 110%;
+  cursor: pointer;
+}
+footer .items .item li:first-child {
+  color: white;
+  font-size: bold;
+}
+hr {
+  height: -5px;
+  color: grey;
+}
